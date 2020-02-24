@@ -1,7 +1,7 @@
 #  Python 图片压缩工具
 
 #### 环境要求
-    - python >= 3.6 
+    python >= 3.6 
 
 #### 扩展依赖
     pip3 install -r requirements.txt
