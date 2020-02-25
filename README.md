@@ -1,4 +1,4 @@
-#  Python 图片压缩工具
+#  Python 图片无损压缩工具
 
 #### 环境要求
     python >= 3.6 
@@ -11,3 +11,6 @@
 
 #### 打包成Windows应用
     pyinstaller --onedir -n Compress  -i compress.ico -y -w -D compress.py
+    
+#### 演示效果
+    ![](compress.gif）
