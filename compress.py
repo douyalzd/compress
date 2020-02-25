@@ -1,6 +1,7 @@
 #!/usr/local/bin/python3
 # -*- coding:utf-8 -*-
 # __author__ = "shangjinglong"
+
 import wx
 from PIL import Image
 import os
@@ -57,7 +58,6 @@ class Luban(object):
                 return max(1, longSide // 1280)
         elif (scale <= 0.5625 and scale > 0.5):
             return max(1, longSide // 1280)
-
         else:
             return ceil(longSide / (1280.0 / scale))
 
@@ -79,7 +79,6 @@ class Message:
     @staticmethod
     def show(word):
         dlg = wx.MessageDialog(None, word, u"操作提示", wx.ICON_QUESTION)
-
         if dlg.ShowModal() == wx.ID_YES:
             pass
         dlg.Destroy()
