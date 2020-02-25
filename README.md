@@ -13,10 +13,10 @@
     pyinstaller --onedir -n Compress  -i compress.ico -y -w -D compress.py
 
 #### 压缩前图片(14.6MB)
-![image1](https://github.com/shangjinglong/compress/blob/master/_bKzOhUxczE_1.jpg）
+![image1](https://github.com/shangjinglong/compress/blob/master/_bKzOhUxczE_1.jpg)
     
 #### 压缩后图片(133KB)
-![image2](https://github.com/shangjinglong/compress/blob/master/_bKzOhUxczE_2.jpg）
+![image2](https://github.com/shangjinglong/compress/blob/master/_bKzOhUxczE_2.jpg)
         
 #### 效果演示
-![image3](https://github.com/shangjinglong/compress/blob/master/compress.gif）
+![image3](https://github.com/shangjinglong/compress/blob/master/compress.gif)
